@@ -1,0 +1,16 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(40, 1fr);
+    gap: 2px;
+}
+
+.controls {
+    margin-bottom: 20px;
+}

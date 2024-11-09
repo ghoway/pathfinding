@@ -1,0 +1,19 @@
+.node {
+    width: 30px; /* Sesuaikan ukuran sesuai kebutuhan */
+    height: 30px; /* Sesuaikan ukuran sesuai kebutuhan */
+    border: 1px solid #ccc;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.start {
+    background-color: green;
+}
+
+.end {
+    background-color: red;
+}
+
+.wall {
+    background-color: black;
+}
