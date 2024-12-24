@@ -198,7 +198,7 @@ const App = () => {
 
     return (
         <div className="app">
-            <h1>---</h1>
+            <h1>Pathfinding Visualizer</h1>
             <Grid grid={grid} handleNodeClick={handleNodeClick} />
             <div className="controls">
                 <button onClick={resetGrid}>Reset Grid</button>
